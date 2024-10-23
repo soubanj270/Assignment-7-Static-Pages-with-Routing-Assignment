@@ -1,0 +1,211 @@
+@font-face {
+  font-family: anton;
+  src: url(../Anton-Regular.ttf);
+}
+
+
+@font-face {
+  font-family: quick;
+  src: url(../Quicksand-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: radial-gradient(circle, #FBE9D1 56%, #90AEAE 100%);
+}
+
+.bignavbar {
+  background: linear-gradient(90deg, #76b4cc 20%, #E74833 100%);
+  font-family: anton;
+  font-weight: 100;
+  letter-spacing: 4px;
+}
+
+.navbar{
+  background-color: #D8B08C;
+  border-radius: 20px;
+}
+
+.navcontainer {
+  top: 45px;
+  font-family: anton;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+#servicedetail{
+  font-family: quick;
+}
+
+#oops{
+  font-family: quick;
+}
+
+.mainnav {
+  top: -45px;
+}
+
+#head {
+  font-family: anton;
+  letter-spacing: 2px;
+}
+
+
+
+#main {
+  font-family: anton;
+  letter-spacing: 2px;
+}
+
+
+#para1 {
+  font-family: quick;
+}
+
+#para2 {
+  font-family: quick;
+}
+
+#para3 {
+  font-family: quick;
+}
+
+#what{
+  font-family: anton;
+  letter-spacing: 2px;
+}
+
+#card1{
+  background-color: #D3D9D5;
+  font-family: quick;
+}
+
+#card2{
+  background-color: #D3D9D5;
+  font-family: quick;
+}
+
+#card3{
+  background-color: #D3D9D5;
+  font-family: quick;
+}
+
+#card4{
+  background-color: #D3D9D5;
+  font-family: quick;
+}
+
+#service{
+  font-family: anton;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+
+#title1{
+  font-family: quick;
+}
+
+#title2{
+  font-family: quick;
+}
+
+#title3{
+  font-family: quick;
+}
+
+#title4{
+  font-family: quick;
+}
+
+#title5{
+  font-family: quick;
+}
+
+#title6{
+  font-family: quick;
+}
+
+#contact{
+  font-family: anton;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+
+#form{
+  font-family: quick;
+
+}
+
+.red:hover {
+  color: white;
+  background-color: rgb(28, 0, 0);
+}
+
+.searchform:focus {
+  box-shadow: 0 0 0 .25rem rgba(255, 52, 52, 0.393);
+  border: red !important;
+}
+
+.enquire:hover {
+  box-shadow: 1px 1px 20px 0px rgb(19, 3, 3);
+}
+
+.main-carousel {
+  margin-top: -45px;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 400px;
+}
+
+#mycarousel {
+  margin-top: -90px;
+  padding-top: 90px;
+  background-color: black;
+}
+
+.what {
+  font-size: 60px;
+}
+
+.card-logo {
+  font-size: 60px;
+}
+
+.card-what:hover {
+  box-shadow: -1px 0px 41px 4px rgba(255, 0, 0, 0.8);
+  transition: 0.3s ease-out;
+  transform: scale(1.05);
+}
+
+.card-course:hover {
+  transition: 0.3s ease-out;
+  box-shadow: 0px 20px 30px 4px rgba(255, 0, 0, 0.6);
+  scale: 1.05;
+  translate: 0px -20px;
+}
+
+.trialbtn {
+  position: fixed;
+  top: 45%;
+  right: 62px;
+  transform: rotate(-90deg);
+  z-index: 1000;
+  margin: 0 -100px;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: rgba(255, 35, 35, 0.539);
+}
+
+@media (min-width: 1080px) {
+  .highlight-img {
+    width: 20%;
+  }
+}
